@@ -3,7 +3,6 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 
 import HomePage from './pages/Home.page'
 import ProductPage from './pages/Product.page'
-import './App.css';
 
 function App() {
   return (
