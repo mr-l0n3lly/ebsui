@@ -47,12 +47,6 @@ const HomePage = () => {
 
 		fetch(`${HOST}/products/${id}`, {
 			method: 'DELETE',
-			headers: {
-				'Content-Type': 'application/json;charset=utf-8'
-			},
-			body: JSON.stringify({
-				id
-			})
 		})
 			.then(response => response.json())
 			.then(data => setMessage(data))
